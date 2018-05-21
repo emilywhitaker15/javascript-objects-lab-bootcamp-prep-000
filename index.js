@@ -1,6 +1,11 @@
 function Objects() {
-  var recipes = { flour: "1 cup"}
-  return recipes
+var recipes = {
+    flour: "1 cup",
+    sugar : "1 cup",
+    fullName : function() {
+        return this.flour + " " + this.sugar;
+}
+}
 }
 
 function updateObjectWithKeyAndValue(object, key, value) {
