@@ -1,12 +1,4 @@
-function Objects() {
-var recipes = {
-    flour: "1 cup",
-    sugar : "1 cup",
-    fullName : function() {
-        return this.flour + " " + this.sugar;
-}
-}
-}
+function Objects(
 
 function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign({}, object, {[key]: value})
