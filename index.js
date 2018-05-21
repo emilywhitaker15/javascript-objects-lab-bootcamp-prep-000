@@ -1,5 +1,5 @@
 function Objects() {
-  var recipes = {}
+  var recipes = { flour: "1 cup"}
   return recipes
 }
 
