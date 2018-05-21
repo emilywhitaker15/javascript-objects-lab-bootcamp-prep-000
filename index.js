@@ -1,4 +1,5 @@
 function Objects(flour, sugar, butter) {
+  this.flourAmount = flour
   
 }
 
