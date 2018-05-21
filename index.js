@@ -1,6 +1,7 @@
 function Objects(flour, sugar, butter) {
-  this.flourAmount = flour
-  
+  this.flourAmount = flour;
+  this.sugarAmount = sugar;
+  this.butterAmount = butter;
 }
 
 function updateObjectWithKeyAndValue(object, key, value) {
