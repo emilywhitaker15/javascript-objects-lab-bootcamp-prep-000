@@ -1,4 +1,6 @@
-function Objects(
+function Objects(flour, sugar, butter) {
+  
+}
 
 function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign({}, object, {[key]: value})
