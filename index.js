@@ -1,5 +1,4 @@
-
-  var recipes = {
+ var recipes = {
     flour: "1 cup",
     sugar: "1 cup"
   }
